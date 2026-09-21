@@ -49,12 +49,52 @@ Charges and operational records
 Unified reports
 ```
 
-## Screenshots
+## Sanitised interface walkthrough
 
-Interface screenshots will be added after customer-sensitive details are removed. No stock imagery or sample QR codes are presented as proof of the production interface.
+The screens below use a controlled demonstration flow. Customer details and live operational records are excluded.
 
-<!-- Add sanitised UI screenshots under assets/screenshots/ and replace this note. -->
+### 1. Admin operations overview
+
+![Admin operations overview](assets/screenshots/admin-operations.png)
+
+The administrator dashboard consolidates visitor activity, revenue, active bands, bills and operational navigation.
+
+### 2. Fast entry and ticket selection
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/screenshots/entry-counter.png" alt="Entry counter with mobile keypad" />
+      <p><strong>Entry counter.</strong> Staff can start a visit from a mobile number or keypad-based entry flow.</p>
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/screenshots/ticket-selection.png" alt="Ticket selection and checkout" />
+      <p><strong>Ticket selection.</strong> Adult, child and elderly tickets feed a clear total before payment.</p>
+    </td>
+  </tr>
+</table>
+
+### 3. Payment and QR band activation
+
+![QR band activation workflow](assets/screenshots/band-activation.png)
+
+Each paid visit progresses to band activation, giving staff an explicit completion state and traceable handoff.
+
+### 4. Store, rentals and customer history
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/screenshots/store-pos.png" alt="Store point of sale with sale and rental actions" />
+      <p><strong>Store POS.</strong> Items can be sold or rented, with deposits and a live cart shown together.</p>
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/screenshots/customer-history.png" alt="Customer purchase and rental history" />
+      <p><strong>Customer history.</strong> Active rentals and completed purchases remain visible in the staff workflow.</p>
+    </td>
+  </tr>
+</table>
 
 ## Privacy and source availability
 
-The client repository, production configuration, user data and business-specific implementation remain private. This repository documents only the product scope, engineering responsibilities and high-level architecture.
+The interface images use a controlled demonstration flow. This public case study excludes client source code, production configuration, real customer records, QR values, credentials and business-sensitive reporting.
